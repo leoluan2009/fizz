@@ -63,6 +63,10 @@ struct KTLSCryptoParams {
 #endif
 };
 
+#ifndef TCP_ULP
+#define TCP_ULP 31
+#endif
+
 /**
  * TrafficDirection indicates the direction of I/O.
  */
